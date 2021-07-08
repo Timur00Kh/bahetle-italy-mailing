@@ -1,65 +1,81 @@
 
-#main{
+.column1 {
+    /*height: 300px;*/
+    align-items: center;
+    width: 100%;
+    /*max-width: 276px;*/
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+.column2 {
+    /*height: 300px;*/
+    align-items: center;
+    width: 100%;
+    max-width: 276px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 16px;
+}
+
+.header1 {
+    color: red;
+    font-size: 38px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.header2 {
+    color: #0e3192;
+    font-size: 24px;
+    margin: 0;
+}
+
+#sponsor-text {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 16px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #0e3192;
+    font-weight: 600;
+}
+
+#info {
+    color: #000000;
+    font-size: 8px;
+    padding: 0 16px;
+}
+
+#text {
+    padding: 16px;
+}
+
+#main {
     max-width: 600px;
-    background: linear-gradient(135deg, #7AD431, #00874D) no-repeat;
+    min-height: 350px;
+}
+
+.bg {
+    background-image: url("https://raw.githubusercontent.com/Timur00Kh/bahetle-italy-mailing/main/resourses/images/bg2.jpg");
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
 .capital {
     text-transform: uppercase;
 }
 
-.w-600 {
-    max-width: 600px;
-}
-
-#container {
-    font-family: Manrope,Arial, Helvetica, sans-serif;
-}
-
-#footer {
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 300;
-}
-
-#footer a {
-    font-weight: 600;
-    color: #78B833;
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 12px;
-}
-
-#footer p {
-    font-size: 12px;
-    line-height: 12px;
-}
-
-
-.white-color {
-    color: white;
-}
-.left-container h4 {
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 15px;
-    display: block;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-}
-.left-container h3 {
-    margin-top: 0;
-}
 img {
     max-width: 100%;
 }
-.right-container p {
-    font-size: 12px;
-    line-height: 14px;
-    margin: 0;
-    font-family: Manrope, 'MS Sans Serif', Geneva, sans-serif;
-    font-weight: 500;
-}
+
 h1, h2, h3 {
     line-height: 1.17em;
 }
