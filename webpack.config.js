@@ -12,8 +12,8 @@ const fs = require('fs');
 const content = JSON.parse(fs.readFileSync('./content.json', 'utf8'));
 
 
-module.exports = {
-    entry: './src/index.js',
+module.exports = ['index', 'mini-degustation', 'email'].map(s => ({
+    entry: `./src/index.js`,
     output: {
         filename: 'empty.js',
         path: path.resolve(__dirname, 'dist'),
@@ -24,7 +24,8 @@ module.exports = {
             chunkFilename: "[id].css"
         }),
         new HtmlWebpackPlugin({
-            template: './src/index.ejs',
+            filename: `${s}.html`,
+            template: `./src/${s}.ejs`,
             inlineSource: '.(css)$',
             inject: DEV,
             params: {
@@ -61,4 +62,4 @@ module.exports = {
 
     }
 
-};
+}));
