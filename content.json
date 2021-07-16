@@ -1,16 +1,3 @@
 {
-  "images": {
-    "pic1": "https://timurkh.ru/voxel-doctor-mail-1/pic1.jpg",
-    "pic2": "https://timurkh.ru/voxel-doctor-mail-1/pic2.jpg",
-    "footer": "https://timurkh.ru/voxel-doctor-mail-1/footer.png?v=2",
-    "header": "https://timurkh.ru/voxel-doctor-mail-1/header.png"
-  },
-  "cityTemplates": [
-    {
-      "city": {
-        "name": "kazan",
-        "title": "В Казани"
-      }
-    }
-  ]
+  "link1": "https://dostavka.bahetle.com/catalog/"
 }

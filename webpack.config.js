@@ -29,7 +29,7 @@ module.exports = ['index', 'mini-degustation', 'email'].map(s => ({
             inlineSource: '.(css)$',
             inject: DEV,
             params: {
-                images: content.images
+                ...content
             }
         }),
         new HtmlWebpackInlineStylePlugin(),
